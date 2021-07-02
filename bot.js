@@ -18,3 +18,6 @@ function reapWhen(numSeconds) { // This function clicks the 'reap' button when t
     }
   }, 5000);
 }
+
+const desiredTime = 500 // Measured in seconds.
+reapWhen(desiredTime)
